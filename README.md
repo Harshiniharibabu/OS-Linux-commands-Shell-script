@@ -43,23 +43,31 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-file:///home/harshinih/Documents/os/1.png<img width="802" height="155" alt="image" src="https://github.com/user-attachments/assets/4a8916ab-6a67-4b3f-acca-6bd2a012167c" />
+<img width="802" height="155" alt="image" src="https://github.com/user-attachments/assets/4a8916ab-6a67-4b3f-acca-6bd2a012167c" />
 
 
 cat < file2
 ## OUTPUT
 
+<img width="851" height="182" alt="image" src="https://github.com/user-attachments/assets/086a344d-c8fb-42da-8be9-24c9e51e959d" />
+
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+
+<img width="1055" height="68" alt="image" src="https://github.com/user-attachments/assets/86a93e42-af50-4a93-8483-221f08b2e3a6" />
  
 comm file1 file2
  ## OUTPUT
 
+<img width="1224" height="224" alt="image" src="https://github.com/user-attachments/assets/937e992e-7ced-42ec-bb7b-0c29ecc760b4" />
+
  
 diff file1 file2
 ## OUTPUT
+
+<img width="602" height="274" alt="image" src="https://github.com/user-attachments/assets/9af55b92-a0cf-4877-aaea-f8bcf4d831ae" />
 
 
 #Filters
@@ -85,15 +93,18 @@ cut -c1-3 file11
 ## OUTPUT
 
 
+<img width="681" height="98" alt="image" src="https://github.com/user-attachments/assets/8f5a08b6-9ceb-4223-837d-e9a519c2ff3a" />
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-
+<img width="696" height="128" alt="image" src="https://github.com/user-attachments/assets/cab70fbb-7493-45ae-b1f2-9fbbb52ac681" />
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+<img width="696" height="128" alt="image" src="https://github.com/user-attachments/assets/a671cd67-d853-4c6b-9d98-e7dc411cfa2e" />
 
 
 cat < newfile 
