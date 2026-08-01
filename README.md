@@ -43,6 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+file:///home/harshinih/Documents/os/1.png<img width="802" height="155" alt="image" src="https://github.com/user-attachments/assets/4a8916ab-6a67-4b3f-acca-6bd2a012167c" />
 
 
 cat < file2
