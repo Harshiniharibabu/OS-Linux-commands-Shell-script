@@ -594,14 +594,15 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
-
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+<img width="737" height="181" alt="image" src="https://github.com/user-attachments/assets/14e0f9e0-fee2-49ef-a40d-f3b608fd3843" />
+
+
 
 
 # check file ownership
@@ -679,6 +680,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="682" height="148" alt="image" src="https://github.com/user-attachments/assets/42a7fd92-6d57-4d45-a958-c2f008393bef" />
 
 
 # using numeric test comparisons
@@ -721,7 +723,11 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+
+<img width="686" height="129" alt="image" src="https://github.com/user-attachments/assets/96cab7bc-7c09-4cff-99c8-1e3c360fc6d1" />
+
+
 
 # check if a file
 cat > ifnested.sh 
@@ -770,7 +776,11 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+
+<img width="686" height="156" alt="image" src="https://github.com/user-attachments/assets/d86a702f-dc61-4d5c-ab65-fefc3191b2be" />
+
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -800,6 +810,9 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="700" height="176" alt="image" src="https://github.com/user-attachments/assets/6e865ba4-f685-4217-a00c-c28fcb77b08f" />
+
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -815,6 +828,10 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+<img width="666" height="144" alt="image" src="https://github.com/user-attachments/assets/9a289b41-6178-4074-b2a8-17bdc3c291c5" />
+
+
 
 # using the case command
 cat >casecheck.sh 
@@ -834,6 +851,12 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
+## OUTPUT
+
+<img width="692" height="449" alt="image" src="https://github.com/user-attachments/assets/2d6ee3c5-7d7f-42f2-be2d-cde6e7f536c5" />
+
+
  
 cat > whiletest
 ```bash
@@ -849,6 +872,11 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+## OUTPUT
+
+<img width="600" height="395" alt="image" src="https://github.com/user-attachments/assets/f5394751-d49e-4366-a903-16c6253eb0ac" />
+
  
  
 cat untiltest.sh 
@@ -862,7 +890,11 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+
+## OUTPUT
+
+<img width="565" height="202" alt="image" src="https://github.com/user-attachments/assets/db32ffe0-312f-4463-8efd-e83ce2ad8731" />
+
  
  
 cat forin1.sh 
@@ -876,6 +908,12 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
+ ## OUTPUT
+
+
+<img width="566" height="236" alt="Screenshot 2026-08-01 223926" src="https://github.com/user-attachments/assets/289b219b-1881-4575-b031-12bed701b226" />
+
  
  
 cat forin2.sh 
@@ -889,19 +927,11 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
+
+ ## OUTPUT
+
+<img width="585" height="124" alt="image" src="https://github.com/user-attachments/assets/71341864-53da-4a2f-8f7e-e6317023aec0" />
+
  
 cat forin3.sh 
 ```bash
@@ -913,40 +943,10 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
 
 ## OUTPUT
-cat forinfile.sh 
-```bash
-#!/bin/bash
-# reading values from a file
-file="cities"
-for state in `cat $file`
-do
-echo "Visit beautiful $file“
-done
-```
-$ chmod 777 forinfile.sh
-$ cat cities
-Hyderabad
-Alampur
-Basara
-Warangal
-Adilabad
-Bhadrachalam
-Khammam
 
-## OUTPUT
+<img width="676" height="244" alt="image" src="https://github.com/user-attachments/assets/8eaa8f37-7393-4c7d-86e3-751a40f87d7a" />
 
 
 cat forctype.sh 
@@ -962,6 +962,10 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+<img width="666" height="223" alt="image" src="https://github.com/user-attachments/assets/0b81ee9d-09b2-4eb4-af90-350d45a9cc9d" />
+
+
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -974,6 +978,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+<img width="655" height="270" alt="image" src="https://github.com/user-attachments/assets/83ecb90f-9cff-4a76-95f5-9e6a83d88c01" />
+
 
 cat fornested1.sh 
 ```bash
@@ -993,6 +1000,9 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+ <img width="699" height="445" alt="image" src="https://github.com/user-attachments/assets/15d38b18-c55d-4838-8089-76cbacac143b" />
+
+
  
 cat forbreak.sh 
 ```bash
@@ -1008,11 +1018,17 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
+ ## OUTPUT
+
+<img width="595" height="138" alt="image" src="https://github.com/user-attachments/assets/0905ba25-3186-4dca-9313-30b346d05800" />
+
+
  
 cat forbreak.sh 
 ```bash
@@ -1034,6 +1050,10 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+<img width="636" height="191" alt="image" src="https://github.com/user-attachments/assets/5adec8d2-e4ec-4c82-8f1c-1360c4699a17" />
+
+
  
 cat exread.sh 
 ```bash
@@ -1049,6 +1069,8 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+<img width="670" height="147" alt="image" src="https://github.com/user-attachments/assets/e3b5dbdd-7dd2-4c21-84ee-7dedd794205d" />
+
 
  cat exread1.sh
 ```bash
@@ -1061,6 +1083,8 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
+
+<img width="1944" height="809" alt="ChatGPT Image Aug 1, 2026, 11_01_42 PM" src="https://github.com/user-attachments/assets/c9f3ddeb-fbc7-473d-9e01-cb6f761cb57b" />
 
 
 $ ./exread1.sh 
@@ -1080,11 +1104,16 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
+
+## OUTPUT
+
+
+<img width="1622" height="969" alt="ChatGPT Image Aug 1, 2026, 10_57_33 PM" src="https://github.com/user-attachments/assets/237dc7af-4e5b-4f84-b16d-a37e66acafe7" />
 
  
 cat argshift.sh
@@ -1097,8 +1126,13 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+<img width="536" height="120" alt="image" src="https://github.com/user-attachments/assets/4f136680-264f-4b35-9754-0ecb55dfe6b7" />
+
  
  cat argshift1.sh
 ```bash
@@ -1114,8 +1148,13 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+<img width="675" height="165" alt="image" src="https://github.com/user-attachments/assets/cb17e80b-d4cb-43d5-99f7-95f2e51ddf1c" />
+
  
 cat argshift.sh
 ```bash
@@ -1127,9 +1166,14 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+
+
  ./argshift.sh 1 2 3
- 
+
+ ## OUTPUT
+
+<img width="1337" height="1177" alt="ChatGPT Image Aug 1, 2026, 11_06_33 PM" src="https://github.com/user-attachments/assets/d68be73f-78f5-48ad-bfbb-2283ebdaf082" />
+
  
 cat > nc.awk
 ```bash
@@ -1160,6 +1204,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+
+<img width="963" height="481" alt="image" src="https://github.com/user-attachments/assets/fb472fdb-a070-409e-9da6-e461763e4774" />
+
  
 cat > palindrome.sh
 ```bash
@@ -1187,6 +1234,9 @@ else
 fi
 ```
 ## OUTPUT 
+
+
+<img width="675" height="224" alt="image" src="https://github.com/user-attachments/assets/d89b9d40-af45-4ad4-8829-d6175b9949d8" />
 
 
 # RESULT:
